@@ -1,0 +1,164 @@
+h1{
+    font-size: 20px;
+    font-family:cursive;
+}
+.card-group{
+margin-left:100px;}
+
+.contactbg{
+margin-top: 100px;
+font-family: cursive;
+font-size: 40px;
+padding:100px 50px;
+background-image: url(image/back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.btn-lg{
+  margin-top:30px;
+  width:30vh;
+}
+
+
+/*------------navbar------------*/
+.nav-list{
+    height:70px;
+    background-color:black;
+    box-shadow:0px 0px 10px;
+    margin:0;
+    padding:15px 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .nav-item{
+
+    list-style: none;
+    margin-right: 50px;
+    color:white;
+    font-weight:bold;}
+    .nav-item :hover{
+    color:rgb(155, 229, 207);}
+    
+    
+    .nav-item a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;}
+    .nav-item:first-child{
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 30px;
+    }
+    
+/*...........Newsletter................*/
+    .home-newsletter {
+        margin-top: 20vh;
+        padding: 60px 0;
+        background: rgba(139, 192, 185, 0.933);
+        }
+        
+        .home-newsletter .single {
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+        .home-newsletter .single h2 {
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 40px; }
+        .home-newsletter .single .form-control {
+        height: 50px;
+        background: rgba(255, 255, 255, 0.6);
+        border-color: transparent;
+        border-radius: 20px 0 0 20px; }
+        .home-newsletter .single .form-control:focus {
+        box-shadow: none;
+        border-color: #243c4f; }
+        .home-newsletter .single .btn {
+        min-height: 50px; 
+        border-radius: 0 20px 20px 0;
+        background: #243c4f;
+        color: #fff;
+        }
+
+        /*..............footer.............*/
+footer{
+    height:30vh;
+    background-color:rgba(104, 134, 163, 0.933);
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align:center;
+   
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom:40px;
+  }
+  
+  
+
+/*............Contact.............*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:rgb(46, 196, 146);
+    font-size: 45px;
+ 
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+    font-family: 'Teko', sans-serif;
+    padding: 60px 70px; 
+    width: 70%;
+    width: 100vw;
+    height: 550px;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+  }
+  .contact-section{
+    padding: 40px 50px;
+    }
+
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+  }
+  
